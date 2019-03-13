@@ -69,6 +69,7 @@ lazy val `onboard-identity-api` = (project in file("onboard-identity-api"))
       accord
     )
   )
+  .dependsOn(`common`)
 
 lazy val `onboard-identity-impl` = (project in file("onboard-identity-impl"))
   .enablePlugins(LagomScala)
