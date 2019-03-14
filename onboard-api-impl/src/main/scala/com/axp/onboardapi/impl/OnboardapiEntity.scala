@@ -89,7 +89,9 @@ class OnboardapiEntity extends PersistentEntity {
 /**
  * The current state held by the persistent entity.
  */
-case class OnboardapiState(message: String, timestamp: String)
+case class OnboardapiState(
+  message: String,
+  timestamp: String)
 
 object OnboardapiState {
 

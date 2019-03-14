@@ -78,7 +78,9 @@ object GreetingMessage {
  * The greeting message class used by the topic stream.
  * Different than [[GreetingMessage]], this message includes the name (id).
  */
-case class GreetingMessageChanged(name: String, message: String)
+case class GreetingMessageChanged(
+  name: String,
+  message: String)
 
 object GreetingMessageChanged {
 

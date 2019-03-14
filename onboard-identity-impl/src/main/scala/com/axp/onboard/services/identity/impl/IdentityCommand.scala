@@ -10,6 +10,6 @@ case class CreateUser(
   lastName: String,
   email: String,
   username: String,
-  password: String
-) extends ReplyType[GeneratedIdDone]
+  password: String)
+    extends ReplyType[GeneratedIdDone]
     with IdentityCommand

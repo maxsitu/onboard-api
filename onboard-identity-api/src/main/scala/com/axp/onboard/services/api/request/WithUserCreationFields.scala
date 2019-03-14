@@ -1,4 +1,4 @@
-package com.axp.onboard.services.api
+package com.axp.onboard.services.api.request
 
 trait WithUserCreationFields {
   val firstName: String
